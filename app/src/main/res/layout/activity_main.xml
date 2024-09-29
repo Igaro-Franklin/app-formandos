@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="401dp"
+        android:layout_height="80dp"
+        android:src="@drawable/qualifica_logo_transp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="206dp"
+        android:layout_height="193dp"
+        android:src="@drawable/imagem1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/codec_pro"
+        android:paddingLeft="15dp"
+        android:text="Formandos"
+        android:textColor="@color/preto"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:letterSpacing="0.009"
+        android:paddingLeft="15dp"
+        android:text="@string/texto1"
+        android:textAlignment="center"
+        android:textColor="@color/cinza"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="206dp"
+        android:layout_height="193dp"
+        android:src="@drawable/imagem2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/codec_pro"
+        android:paddingRight="15dp"
+        android:text="Aula prática"
+        android:textAlignment="textEnd"
+        android:textColor="@color/preto"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:letterSpacing="0.009"
+        android:text="@string/texto2"
+        android:textAlignment="center"
+        android:textColor="@color/cinza"
+        android:textSize="16dp"
+        android:paddingRight="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/proxTela"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_prox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974">
+
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/btnAlbum"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/botao_redondo_album"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
